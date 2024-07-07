@@ -428,7 +428,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"m@gmail.com\",\r\n    \"password\": \"m@gmail.com\"\r\n}",
+							"raw": "{\r\n    \"assignedTo\" : 1\r\n\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -513,7 +513,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"email\": \"m@gmail.com\",\r\n    \"password\": \"m@gmail.com\"\r\n}",
+							"raw": "{\r\n    \"status\":\"COMPLETED\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"

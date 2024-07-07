@@ -29,3 +29,4 @@ check application health: `http://localhost:3001/status`
 check application api documentation: `http://localhost:3001/api/v1/public/api-doc.json`
 import `public/api-doc.json` in postman 
 
+## all endpoints has authentication & authorization logic except login & registration
