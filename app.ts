@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/api1", (req, res) => {
-  res.status(200).send("Mota-gata BSDK kya kr rha hai");
+  res.status(200).send("Mota-gata BSDK kya kr rha hai!");
 });
 
 app.get("/api2", (req, res) => {
