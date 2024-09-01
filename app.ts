@@ -23,6 +23,14 @@ app.get("/", (req, res) => {
   });
 });
 
+app.get("/api1", (req, res) => {
+  res.status(200).send("Mota-gata BSDK kya kr rha hai");
+});
+
+app.get("/api2", (req, res) => {
+  res.status(200).send("Pijush BSDK  debasmita ko yadd kr rha hai");
+});
+
 app.use("/api/v1/auth", authRouter);
 app.use("/api/v1/user", userRouter);
 
